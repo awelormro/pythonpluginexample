@@ -50,14 +50,26 @@
 !_TAG_ROLE_DESCRIPTION!Python!module	namespace	/namespace from where classes\/variables\/functions are imported/
 !_TAG_ROLE_DESCRIPTION!Python!unknown	imported	/imported from the other module/
 !_TAG_ROLE_DESCRIPTION!Python!unknown	indirectlyImported	/classes\/variables\/functions\/modules imported in alternative name/
+ComandoMuestra	plugin/pythonpluginexample.vim	/^command! ComandoMuestra :py3 MiPluginFuncion()$/;"	c
+Comandomuestra	ftplugin/pythonpluginexample.vim	/^command! Comandomuestra :py3 MiPluginFuncion()$/;"	c
 CompleteFormat2	plugin/pyexample.vim	/^function! CompleteFormat2(A, L, P)$/;"	f
+CompleteFormat2	plugin/pythonpluginexample.vim	/^function! CompleteFormat2(A, L, P)$/;"	f
 MiComando2	plugin/pyexample.vim	/^command! -nargs=* -complete=customlist,CompleteFormat2 MiComando2 python3 pluginsconfigs.mi_func/;"	c
+MiComando2	plugin/pythonpluginexample.vim	/^command! -nargs=* -complete=customlist,CompleteFormat2 MiComando2 python3 pluginsconfigs.mi_func/;"	c
+MiPluginFuncion	ftplugin/python/primertest.py	/^def MiPluginFuncion():$/;"	f
+MiPluginFuncion	plugin/python/testlibrs/Executions.py	/^def MiPluginFuncion():$/;"	f
 function_test	plugin/python/pluginsconfigs.py	/^def function_test():$/;"	f
 fzf_launch_example	plugin/python/pluginsconfigs.py	/^def fzf_launch_example():$/;"	f
 g:pendejada1	plugin/pyexample.vim	/^let g:pendejada1="echo 1"$/;"	v
+g:pendejada1	plugin/pythonpluginexample.vim	/^let g:pendejada1="echo 1"$/;"	v
 g:pendejada2	plugin/pyexample.vim	/^let g:pendejada2="echo 3"$/;"	v
+g:pendejada2	plugin/pythonpluginexample.vim	/^let g:pendejada2="echo 3"$/;"	v
 g:pendejada3	plugin/pyexample.vim	/^let g:pendejada3="echo 4"$/;"	v
+g:pendejada3	plugin/pythonpluginexample.vim	/^let g:pendejada3="echo 4"$/;"	v
+hello_world	plugin/python/pluginsconfigs.py	/^def hello_world():$/;"	f
+hello_world	plugin/python/testlibrs/Executions.py	/^def hello_world():$/;"	f
 mi_completado	plugin/python/pluginsconfigs.py	/^def mi_completado(findstart, base):$/;"	f
 mi_funcion	plugin/python/pluginsconfigs.py	/^def mi_funcion(arg):$/;"	f
 pythonpluginexample	README.md	/^# pythonpluginexample$/;"	c
 s:plugexamplepath	plugin/pyexample.vim	/^let s:plugexamplepath = fnamemodify(resolve(expand('<sfile>:p')), ':h')$/;"	v
+s:plugexamplepath	plugin/pythonpluginexample.vim	/^let s:plugexamplepath = fnamemodify(resolve(expand('<sfile>:p')), ':h')$/;"	v

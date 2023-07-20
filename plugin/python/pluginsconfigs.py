@@ -1,16 +1,17 @@
 import vim
-
+from testlibrs import * 
 def function_test():
     print('arriba el Toluca')
 
+def hello_world():
+    print('hello world')
 
 def fzf_launch_example():
-    print('Aupa atleti')
     vim.command("execute ':Files'")
 
 vim.command('command! FZFfrompython python3 pluginsconfigs.fzf_launch_example()')
 
-vim.command('command! Pyfunctest python3 function_test()')
+vim.command('command! Pyfunctest python3 pluginsconfigs.function_test()')
 
 
 

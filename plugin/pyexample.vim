@@ -27,12 +27,12 @@ import vim
 # Load python files {{{2
 plugin_root_dir = vim.eval('s:plugexamplepath')
 python_root_dir = normpath(join(plugin_root_dir, 'python'))
-print(python_root_dir)
+# print(python_root_dir)
 sys.path.insert(0, python_root_dir)
 
 
 import pluginsconfigs
-
+import testlibrs
 # }}}
 
 EOF
